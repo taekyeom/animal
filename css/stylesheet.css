@@ -1,0 +1,134 @@
+/* YOUR STYLE HERE */
+
+/* This demo file has */
+
+body {
+	font-family: "Helvetica Neue", sans-serif;
+	margin-top: 100px;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* This webpage is using google font called Oswald
+https://fonts.google.com/specimen/Oswald 
+
+If you use google font, it would be good not to use too many font families 
+
+If you subscribe Adobe Typekit, you can use fonts from Typekit as well.
+*/
+
+ul>li{
+    /* you can change the bullet point for <ul> */
+    list-style-type: square;
+    /*list-style-type: none; */
+}
+
+ol>li {
+    /* you can change the bullet point for <ol> */
+    list-style-type:lower-alpha;
+    /*list-style-type: none; */
+}
+
+h1 { 
+	font-family: 'Oswald', sans-serif;
+	font-size: 6em;
+    /* 16px 1.0000em 100.00%
+    Pixel is a static measurement, while percent and EM are relative measurements. The size of an EM or percent depends on its parent.*/
+	font-weight:  700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1.2em;
+	background-color: #fff;
+	margin-bottom: 20px;
+	padding: 40px;
+	border-top: solid 20px #000;
+    color: magenta;
+}
+
+h2 {	
+	font-family: 'Oswald', sans-serif;
+	background-color: orange;
+	padding: 20px;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: white;
+}
+
+h3 {	
+	font-family: 'Oswald', sans-serif;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 40px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	color: blue;
+}
+
+table {
+    width: 100%;
+}
+
+th{
+    text-align: left;
+}
+
+p {
+    /* it will choose the default font if you do not use any 'font-family: ;' */
+    
+	margin-bottom: 1em;	 
+    /* Relative to the font-size of the element (2em means 2 times the size of the current font)*/
+    line-height: 1.2em;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.two_col {
+    width: 400px;
+    height: 450px;
+    float: left;
+}
+
+/* forexample, if you need three col*/
+.three_col {
+    width: 260px;
+    height: 500px;
+    float: left;
+}
+
+#lorem {
+    color: #652C90;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.center_block_img {
+    display: block;
+    /* it needs display property 'block', especially image. if not it cannot float at center*/
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.center_block_text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Oswald', sans-serif;
+    font-weight:  100;
+    font-size: 0.8em;
+	background-color: #D1D2D4;
+	padding: 20px;
+	margin: 20px;
+}
